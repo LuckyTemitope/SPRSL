@@ -1,0 +1,27 @@
+nav {
+    padding: 3em 4em;
+    padding-bottom: 1em;
+    /* background-color: aliceblue; */
+}
+
+.logo {
+    margin-right: 4em;
+    font-weight: 900;
+}
+
+li {
+    margin-right: 1.5em;
+    /* font-weight: light; */
+    /* transition: 0.3s ease-in-out; */
+
+}
+
+li:hover {
+    /* font-weight: 500; */
+}
+
+.router-link-active {
+    font-weight: 700;
+    /* transition: 0.3s ease-in-out; */
+    /* text-decoration: underline; */
+}

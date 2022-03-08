@@ -1,0 +1,20 @@
+.join-btn {
+    background-color: #92DCE5;
+    border: none;
+    padding: 0.5em 3em !important;
+    border-radius: 2em;
+    color: white;
+    font-weight: bolder;
+    transition: 0.2s ease-in-out;
+    margin-top: 1em;
+}
+
+.join-btn:hover {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+    /* padding: 0.3em 2.8em !important; */
+}
+
+h1 {
+    font-weight: 900;
+}
+

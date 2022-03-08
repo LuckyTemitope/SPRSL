@@ -1,0 +1,35 @@
+footer {
+    width: 100%;
+    background-color: #2B2D42;
+    color: white !important;
+    padding: 1em 4em;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+i {
+    color: white;
+    font-size: 1.3em;
+    margin: 0 0.2em;
+}
+
+i:hover {
+    opacity: 0.8;
+}
+
+.stay-in-touch {
+    display: flex;
+    font-weight: bolder;
+}
+
+p {
+    margin-right: 0.5em;
+    color: white;
+}
+
+.copyright {
+    font-weight: lighter;
+}
