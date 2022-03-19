@@ -23,19 +23,18 @@
               TEAMS
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Team 1</a></li>
-              <li><a class="dropdown-item" href="#">Team 2</a></li>
-              <li><a class="dropdown-item" href="#">Team 3</a></li>
+              <li *ngFor="let team of teams"><a class="dropdown-item" href="#teams">{{ team.name }}</a></li>
+
             </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#schedule">FIXTURES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" [routerLink]="['/results']" routerLinkActive="router-link-active">RESULTS</a>
+            <a class="nav-link"  href="#results">RESULTS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" [routerLink]="['/standings']" routerLinkActive="router-link-active">TABLE</a>
+            <a class="nav-link" href="#table">TABLE</a>
           </li>
           <li class="nav-item">
             <a class="nav-link about-us" [routerLink]="['/about-us']" routerLinkActive="router-link-active">ABOUT US</a>

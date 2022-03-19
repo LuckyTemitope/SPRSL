@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Team } from 'src/constants/team';
+import { DataService } from 'src/services/data.service';
 
 @Component({
   selector: 'app-navbar',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  teams: Team[] = [];
+
+  constructor(private dataService: DataService) { }
 
   ngOnInit(): void {
+    this.dataService.getTeam()
+      .subscribe(team => this.teams = team)
   }
 
 }

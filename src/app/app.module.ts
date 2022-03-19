@@ -7,13 +7,14 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { SchedulesComponent } from './schedules/schedules.component';
-import { StandingsComponent } from './standings/standings.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ResultsComponent } from './results/results.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { DataService } from 'src/services/data.service';
 import { TeamsComponent } from './teams/teams.component';
+import { TableComponent } from './table/table.component';
+import { ScrollTopComponent } from './scroll-top/scroll-top.component';
 
 @NgModule({
   declarations: [
@@ -21,12 +22,13 @@ import { TeamsComponent } from './teams/teams.component';
     NavbarComponent,
     HomeComponent,
     SchedulesComponent,
-    StandingsComponent,
     FooterComponent,
     ContactUsComponent,
     ResultsComponent,
     AboutUsComponent,
-    TeamsComponent
+    TeamsComponent,
+    TableComponent,
+    ScrollTopComponent
   ],
   imports: [
     BrowserModule,

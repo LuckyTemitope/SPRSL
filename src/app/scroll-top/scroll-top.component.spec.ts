@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { StandingsComponent } from './standings.component';
+import { ScrollTopComponent } from './scroll-top.component';
 
-describe('StandingsComponent', () => {
-  let component: StandingsComponent;
-  let fixture: ComponentFixture<StandingsComponent>;
+describe('ScrollTopComponent', () => {
+  let component: ScrollTopComponent;
+  let fixture: ComponentFixture<ScrollTopComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ StandingsComponent ]
+      declarations: [ ScrollTopComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(StandingsComponent);
+    fixture = TestBed.createComponent(ScrollTopComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

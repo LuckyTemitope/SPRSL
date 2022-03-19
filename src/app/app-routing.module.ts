@@ -1,11 +1,11 @@
 import { ContactUsComponent } from './contact-us/contact-us.component';
-import { StandingsComponent } from './standings/standings.component';
 import { SchedulesComponent } from './schedules/schedules.component';
 import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ResultsComponent } from './results/results.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { TableComponent } from './table/table.component';
 
 const routes: Routes = [
   {
@@ -19,7 +19,7 @@ const routes: Routes = [
     component: ResultsComponent
   }, {
     path: 'standings',
-    component: StandingsComponent
+    component: TableComponent
   },{
     path: 'about-us',
     component: AboutUsComponent
@@ -33,6 +33,6 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { 
+export class AppRoutingModule {
 
 }

@@ -8,7 +8,7 @@
     background-image: url(../../assets/images/BG-Image.png);
     /* background-attachment: fixed; */
     background-size: cover;
-    
+
 }
 
 .landing-details-container {
@@ -30,7 +30,17 @@
 .landing-details-container a:hover {
     opacity: 0.9;
     text-shadow: 2px 15px 30px rgba(0, 0, 0);
+    left: 200px;
 }
+
+app-teams {
+  z-index: -1;
+}
+
+app-scroll-top {
+  z-index: 10;
+}
+
 
 /* .landing-page-container {
     display: flex;
@@ -41,7 +51,7 @@
 
 .texts {
     display: flex;
-    
+
 }
 
 .join-btn {
