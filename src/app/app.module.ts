@@ -10,6 +10,10 @@ import { SchedulesComponent } from './schedules/schedules.component';
 import { StandingsComponent } from './standings/standings.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { ResultsComponent } from './results/results.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { DataService } from 'src/services/data.service';
+import { TeamsComponent } from './teams/teams.component';
 
 @NgModule({
   declarations: [
@@ -19,14 +23,17 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     SchedulesComponent,
     StandingsComponent,
     FooterComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    ResultsComponent,
+    AboutUsComponent,
+    TeamsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -2,9 +2,13 @@
 
 * {
     font-family: 'Montserrat', sans-serif;
-    color: #2B2D42;
+    /* color: #2B2D42; */
 }
 
+h2 {
+  color: #0D1E29;
+  font-weight: 900;
+}
 
 a {
     text-decoration: none;

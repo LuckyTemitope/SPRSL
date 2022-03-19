@@ -1,0 +1,16 @@
+.teams-container {
+  /* height: 110vh; */
+  padding: 4.5em;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+.card-text-container {
+  margin-top: 13em;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.card {
+  margin: 1em auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+}

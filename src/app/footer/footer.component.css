@@ -1,4 +1,27 @@
+
 footer {
+    text-align: center;
+    background-color: #0D1E29;
+    color: #a1a1a1 !important;
+    height: 18em;
+    font-size: 0.8em;
+}
+
+a {
+    color: #a1a1a1 !important;
+}
+
+.contact-container {
+    line-height: 0.4em;
+    padding: 2em 1em;
+    height: 60%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* footer {
     width: 100%;
     background-color: #2B2D42;
     color: white !important;
@@ -32,4 +55,4 @@ p {
 
 .copyright {
     font-weight: lighter;
-}
+} */

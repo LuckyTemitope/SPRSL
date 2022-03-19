@@ -1,18 +1,49 @@
+
 <div class="main-container">
 
-    <div class="text-container">
-        <h1>Sheridan Park <br>
-            Recreational <br>
-            Soccer League
-        </h1>
+    <div class="landing-page">
 
-        <button class="join-btn">
-            Join the league today!
-        </button>
+      <app-navbar></app-navbar>
+
+
+        <div class="landing-details-container">
+
+
+            <h1>
+                Join<br>the League<br>today
+                <a href="#">
+                    <i class="fa-solid fa-circle-arrow-right"></i>
+                </a>
+
+            </h1>
+
+        </div>
     </div>
 
-    <div class="landing-image">
-        <img src="../../Assets/test.jpeg" alt="">
-    </div>
-
+    <app-teams></app-teams>
+    <app-schedules id="schedule"></app-schedules>
+    <app-results></app-results>
 </div>
+
+
+<!-- <div class="main-container">
+  <section>
+    <div class="landing-page-container">
+      <div class="texts">
+        <div class="text-container">
+          <h1>
+            Sheridan Park <br />
+            Recreational <br />
+            Soccer League
+          </h1>
+
+          <button class="join-btn">Join the league today!</button>
+        </div>
+      </div>
+
+      <div class="landing-image">
+        <img src="../../assets/images/LandingImages.png" alt="Hero Images" />
+      </div>
+    </div>
+  </section>
+</div> -->

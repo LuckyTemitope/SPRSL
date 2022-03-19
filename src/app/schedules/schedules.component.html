@@ -1,1 +1,33 @@
-<p>schedules works!</p>
+<section>
+<div class="schedule-container">
+    <div class="header">
+        <h2>
+            Fixtures
+        </h2>
+    </div>
+    
+    
+    <div class="fixture-table-container">
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Pitch</th>
+                <th>Home</th>
+                <th>Away</th>
+            </tr>
+            
+            
+            
+            <tr *ngFor="let schedule of schedules">
+                <td>{{ schedule.date }}</td>
+                <td>{{ schedule.time }}</td>
+                <td>{{ schedule.pitch }}</td>
+                <td>{{ schedule.home }}</td>
+                <td>{{ schedule.away }}</td>
+            </tr>
+        </table>
+    </div>
+    
+</div>
+</section>

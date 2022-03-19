@@ -1,0 +1,21 @@
+.schedule-container {
+    height: 90vh;
+    padding: 4.5em;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+table {
+    width: 100%;
+    margin-top: 2em;
+    border-radius: 3em;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.04);
+}
+
+th, td {
+    padding: 1.5em 2em;
+}
+
+th {
+  background: #0D1E29;
+  color: #fff;
+}

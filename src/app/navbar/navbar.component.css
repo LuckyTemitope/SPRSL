@@ -1,27 +1,64 @@
 nav {
-    padding: 3em 4em;
+    padding: 2em 4em;
     padding-bottom: 1em;
-    /* background-color: aliceblue; */
+    width: 100%;
+    /* background-color: #212121; */
+    /* background-color: #0D1E29; */
+}
+
+.dropdown-item {
+    width: 100%;
+    color: #212121 !important;
 }
 
 .logo {
-    margin-right: 4em;
+    margin-right: auto;
     font-weight: 900;
+    width: 9em;
+
 }
 
+.logo-container .icon {
+    width: 100%;
+    margin-bottom: -0.5em;
+}
+
+.tagline {
+    width: 20em;
+}
+
+
+a {
+    color: #fff !important;
+    font-size: 0.8em;
+}
+
+
 li {
-    margin-right: 1.5em;
-    /* font-weight: light; */
+    margin-right: 1em;
+    /* font-weight: light !important; */
     /* transition: 0.3s ease-in-out; */
 
 }
 
 li:hover {
-    /* font-weight: 500; */
+    font-weight: bold;
 }
+
+.about-us {
+    width: 7em !important;
+}
+
+.list-container {
+    margin-left: 40em;
+    margin-top: -1.5em;
+    /* background-color: rgb(255, 255, 255, 0.2); */
+}
+
 
 .router-link-active {
     font-weight: 700;
     /* transition: 0.3s ease-in-out; */
     /* text-decoration: underline; */
 }
+

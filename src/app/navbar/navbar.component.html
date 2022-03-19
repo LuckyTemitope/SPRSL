@@ -1,29 +1,50 @@
 
 
-<nav class="navbar navbar-expand-lg navbar-light ">
+
+
+
+<nav class="navbar navbar-expand-lg navbar-dark ">
     <div class="container-fluid">
-      <a class="navbar-brand logo" [routerLink]="['/']" >SPRSL</a>
+      <a class="navbar-brand logo" [routerLink]="['/']" >
+        <div class="logo-container">
+          <img src="../../assets/images/Logo.png" alt="Logo" class="icon"> <br>
+          <img src="../../assets/images/tagline.png" alt="Tagline" class="tagline">
+      </div>
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
+
+      <div class="list-container">
         <ul class="navbar-nav">
-          <!-- <li class="nav-item">
-            <a class="nav-link" [routerLink]="['/']" routerLinkActive="router-link-active">Home</a>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link" [routerLink]="['/home']" routerLinkActive="router-link-active">Home</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              TEAMS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Team 1</a></li>
+              <li><a class="dropdown-item" href="#">Team 2</a></li>
+              <li><a class="dropdown-item" href="#">Team 3</a></li>
+            </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" [routerLink]="['/schedule']" routerLinkActive="router-link-active">Team Schedule</a>
+            <a class="nav-link" href="#schedule">FIXTURES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" [routerLink]="['/standings']" routerLinkActive="router-link-active" >Division Standings</a>
+            <a class="nav-link" [routerLink]="['/results']" routerLinkActive="router-link-active">RESULTS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" [routerLink]="['/contact']" routerLinkActive="router-link-active">Contact Us</a>
+            <a class="nav-link" [routerLink]="['/standings']" routerLinkActive="router-link-active">TABLE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link about-us" [routerLink]="['/about-us']" routerLinkActive="router-link-active">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/contact']" routerLinkActive="router-link-active">CONTACTS</a>
           </li>
         </ul>
+      </div>
       </div>
     </div>
   </nav>
