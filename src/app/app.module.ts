@@ -28,7 +28,7 @@ import { ScrollTopComponent } from './scroll-top/scroll-top.component';
     AboutUsComponent,
     TeamsComponent,
     TableComponent,
-    ScrollTopComponent
+    ScrollTopComponent,
   ],
   imports: [
     BrowserModule,
