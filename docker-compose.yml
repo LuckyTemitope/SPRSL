@@ -1,0 +1,13 @@
+# This file tell docker how to start the container and connect it to our machine so we can access it.
+version: "3.8"
+
+services: 
+
+  sprsl:
+
+    image: sprsl
+    container_name: frontend
+    ports: 
+    - 3000:3000
+    #port exposed in docker file : port of our machine we want to connect it to.
+
