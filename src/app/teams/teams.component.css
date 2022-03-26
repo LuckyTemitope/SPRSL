@@ -5,13 +5,17 @@
 }
 
 .card-text-container {
-  margin-top: 13em;
+  margin-top: 60%;
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.card-title {
+  font-size: 100% !important;
 }
 
 .card {
   margin: 1em auto;
-  border: 1px solid #ccc;
+  border: none;
   box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
 }
 

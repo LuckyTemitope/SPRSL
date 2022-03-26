@@ -1,7 +1,11 @@
 .schedule-container {
-    height: 90vh;
+    height: 100vh;
     padding: 4.5em;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+.fixture-table-container {
+  overflow-x:auto
 }
 
 table {
@@ -9,7 +13,10 @@ table {
     margin-top: 2em;
     border-radius: 3em;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.04);
+    border-collapse: collapse;
 }
+
+
 
 th, td {
     padding: 1.5em 2em;
@@ -19,3 +26,5 @@ th {
   background: #0D1E29;
   color: #fff;
 }
+
+
