@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "sprsl-42b18": {
+      "hosting": {
+        "SPRSL": [
+          "sprsl-42b18"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "sprsl-42b18"
+  }
+}

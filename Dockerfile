@@ -5,8 +5,8 @@ FROM node:alpine
 WORKDIR /usr/share/app
 # The following lines are to install the dependencies in the continer
 COPY package*.json ./
-RUN npm install
 RUN npm install -g @angular/cli @angular-devkit/build-angular -y
+RUN npm install
 # copy all the files from our machine to the work directory
 COPY . .
 
