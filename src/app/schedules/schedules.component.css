@@ -28,3 +28,8 @@ th {
 }
 
 
+@media (max-width: 600px) {
+  .schedule-container  {
+    padding: 4em 2em;
+  }
+}

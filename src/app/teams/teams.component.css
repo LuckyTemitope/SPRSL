@@ -22,3 +22,13 @@
 .card:hover {
   opacity: .9;
 }
+
+@media (max-width: 600px) {
+  .teams-container {
+    padding: 4em 2em;
+  }
+
+  .card-title {
+    font-size: 120% !important;
+  }
+}
