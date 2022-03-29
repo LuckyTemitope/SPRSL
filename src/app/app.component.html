@@ -1,11 +1,16 @@
-
 <!-- The part of the page were the components can change relative to the URL -->
 <router-outlet></router-outlet>
+
 <!-- Test Code will go here -->
-<!-- <ul>
+<!-- firebase -->
+<ul>
   <li *ngFor="let item of item$ | async ">
-      {{item.name}}
+    <h2>{{item.name}}</h2>
+    <p>
+      <img src={{item.picture}} alt="" />
+    </p>
   </li>
-</ul> -->
+</ul>
+
 <!-- Components that needs to appear on all the pages -->
 <app-footer></app-footer>
