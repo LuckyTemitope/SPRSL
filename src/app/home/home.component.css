@@ -42,49 +42,9 @@ app-scroll-top {
 }
 
 
-/* .landing-page-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70vh;
+@media (max-width: 600px) {
+  .landing-details-container {
+    padding: 4.5em 2.5em;
+  }
 }
 
-.texts {
-    display: flex;
-
-}
-
-.join-btn {
-    background-color: #92DCE5;
-    border: none;
-    padding: 0.5em 3em !important;
-    border-radius: 2em;
-    color: white;
-    font-weight: bolder;
-    transition: 0.2s ease-in-out;
-    margin-top: 1em;
-}
-
-.text-container {
-    height: 100%;
-}
-
-.join-btn:hover {
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
-
-}
-
-h1 {
-    font-size: 3.5em;
-    font-weight: 900;
-}
-
-.landing-image {
-    width: 60%;
-}
-
-.landing-image img {
-    width: 100%;
-}
-
- */

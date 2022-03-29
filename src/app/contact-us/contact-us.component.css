@@ -1,0 +1,29 @@
+.contact-us-container {
+  height: 100%;
+  padding: 4.5em;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+
+}
+
+.inner-contact-us-container {
+  padding: 10%;
+  /* background: #eeee; */
+  border-radius: 2em;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+button {
+  background: #212121;
+  border: none;
+}
+
+button:hover {
+  background: #474747;
+}
+
+
+@media (max-width: 600px) {
+  .contact-us-container  {
+    padding: 4em 2em;
+  }
+}
