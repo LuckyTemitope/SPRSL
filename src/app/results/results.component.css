@@ -4,3 +4,10 @@
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
     background: #EDEDED;
 }
+
+
+@media (max-width: 600px) {
+  .results-container  {
+    padding: 4em 2em;
+  }
+}

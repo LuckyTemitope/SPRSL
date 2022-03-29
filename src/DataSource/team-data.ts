@@ -42,7 +42,7 @@ export const TEAM:Team[] = [
     name: 'WSP',
     description: '',
     image: 'WSP.png'
-  },
+  }, 
 
   {
     name: 'Team 8',

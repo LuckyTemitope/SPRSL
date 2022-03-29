@@ -50,10 +50,12 @@ li:hover {
 }
 
 .list-container {
-    margin-left: 40em;
+    margin-left: auto;
     margin-top: -1.5em;
+    float: right;
     /* background-color: rgb(255, 255, 255, 0.2); */
 }
+
 
 
 .router-link-active {
@@ -62,3 +64,9 @@ li:hover {
     /* text-decoration: underline; */
 }
 
+
+@media (max-width: 600px) {
+  nav {
+    padding: 2em 2em;
+  }
+}
