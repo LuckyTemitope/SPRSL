@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from 'src/services/data.service';
+import { collection, Firestore, collectionData  } from '@angular/fire/firestore';
 
 import { Team } from '../../constants/team'
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-teams',
@@ -11,13 +13,17 @@ import { Team } from '../../constants/team'
 
 export class TeamsComponent implements OnInit {
 
-  teams : Team[] = [];
+  // teams : Team[] = [];
+  teams: Observable<any>;
 
-  constructor(private dataService: DataService) { }
+  constructor(private dataService: DataService, firestore:Firestore){
+    const data = collection(firestore, 'teams');
+    this.teams = collectionData(data);
+  }
 
   ngOnInit(): void {
-    this.dataService.getTeam()
-      .subscribe(team => this.teams = team )
+    // this.dataService.getTeam()
+    //   .subscribe(team => this.teams = team )
   }
 
 }
