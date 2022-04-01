@@ -6,6 +6,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ResultsComponent } from './results/results.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { TableComponent } from './table/table.component';
+import { FireadminComponent } from './fireadmin/fireadmin.component';
 
 const routes: Routes = [
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
   }, {
     path: 'contact',
     component: ContactUsComponent
+  },
+  {
+    path:'fireadmin',
+    component: FireadminComponent
   }
 ];
 

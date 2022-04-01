@@ -24,6 +24,7 @@ import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { provideRemoteConfig,getRemoteConfig } from '@angular/fire/remote-config';
 import { provideStorage,getStorage } from '@angular/fire/storage';
+import { FireadminComponent } from './fireadmin/fireadmin.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
     TeamsComponent,
     TableComponent,
     ScrollTopComponent,
+    FireadminComponent,
   ],
   imports: [
     BrowserModule,

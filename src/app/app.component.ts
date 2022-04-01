@@ -16,10 +16,9 @@ interface Item {
 export class AppComponent {
   title = 'SPRSL';
   item$: Observable<any>;
-
+  
   constructor(firestore:Firestore){
-    const data = collection(firestore, 'teams');
-    this.item$ = collectionData(data);
+  
   }
 
 

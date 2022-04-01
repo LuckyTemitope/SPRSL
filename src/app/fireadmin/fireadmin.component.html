@@ -1,0 +1,5 @@
+<input type="button" *ngIf="login==false" (click)="loginWithGoogle()" value="Login with Google"/>
+
+<div *ngIf="login==true">
+    Welcome, {{userData.name || 'Admin'}} !!
+</div>
