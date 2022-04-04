@@ -1,11 +1,4 @@
 import { Component } from '@angular/core';
-import { collection, Firestore, collectionData  } from '@angular/fire/firestore';
-import { Observable } from 'rxjs';
-
-
-interface Item {
-  name: String,
-};
 
 @Component({
   selector: 'app-root',
@@ -15,11 +8,8 @@ interface Item {
 
 export class AppComponent {
   title = 'SPRSL';
-  item$: Observable<any>;
-  
-  constructor(firestore:Firestore){
-  
-  }
 
+  constructor(){
+  }
 
 }
